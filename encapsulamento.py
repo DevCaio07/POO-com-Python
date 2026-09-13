@@ -12,7 +12,7 @@ class contaBancaria:
         self._saldo = saldo_iniciaal #convencao: uso interno 
         
 
-@property
+@property # transforma métodos em atributos
 def saldo(self): 
     return self._saldo  #getter e setters sao utilizados para acessar atributos privados 
 
